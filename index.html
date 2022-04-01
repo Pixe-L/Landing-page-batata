@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Landing page" />
+  <meta property="og:type" content="Criptomonedas y tendencias" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -11,6 +13,8 @@
    rel="stylesheet"
   />
   <link rel="stylesheet" href="./mobile.css" />
+  <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (min-width: 500px)">
+  <link rel="stylesheet" href="./CSS/desktop.css" media="screen and (min-width: 930px)">
   <link rel="shortcut icon" href="./assets/icons/batata.svg" type="image/x-icon">
   <title>Bit</title>
  </head>
@@ -30,6 +34,7 @@
      <h2 class="exchange-container__title">Visibilizamos todas las tasas de cambio.</h2>
      <p class="exchange-container__description">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
     </div>
+    <section class="table-slider">
     <section class="table-container">
      <p class="table-container__title">Monedas</p>
      <div class="table-container__stats">
@@ -56,9 +61,8 @@
        </div>
       </div>
      </div>
+     <p class="table-container__updated"><span>Actualizado: </span>19 Julio 23:45</p>
     </section>
-    <span class="table-container__icon"></span>
-    <p class="table-container__updated"><span>Actualizado: </span>19 Julio 23:45</p>
     <section class="table-container">
      <p class="table-container__title table-title--second">Comisiones</p>
      <div class="table-container__stats table-container--second">
@@ -85,10 +89,10 @@
        </div>
       </div>
      </div>
+     <p class="table-container__updated table-updated--second"><span>Actualizado: </span>19 Julio 23:45</p>
     </section>
-    <span class="table-container__icon"></span>
-    <p class="table-container__updated table-updated--second"><span>Actualizado: </span>19 Julio 23:45</p>
-   </section>
+</section>
+</section>
    <section class="product-detail">
     <span class="product-detail__logo"></span>
     <div class="product-head">
@@ -157,23 +161,28 @@
     </section>
 </section>
 </main>
-<footer class="footer">
-<nav class="nav-foot">
-    <ul class="nav-foot__list">
-        <li class="nav-foot__item">
-            <a href="#" class="nav-foot__link">Linkedin</a>
-        </li>
-        <li class="nav-foot__item">
-            <a href="#" class="nav-foot__link">Crunchbase</a>
-        </li>
-        <li class="nav-foot__item">
-            <a href="#" class="nav-foot__link">Hackernews</a>
-        </li>
-    </ul>
-</nav>
-<div class="footer-logo">
-    <span class="footer-logo__icon"></span>
-    <p class="footer-logo__text">® Batatabit 2020</p>
+<footer>
+<div class="footer">
+    <nav class="nav-foot">
+        <ul class="nav-foot__list">
+            <li class="nav-foot__item">
+                <a href="#" class="nav-foot__link">Linkedin</a>
+            </li>
+            <li class="nav-foot__item">
+                <a href="#" class="nav-foot__link">Crunchbase</a>
+            </li>
+            <li class="nav-foot__item">
+                <a href="#" class="nav-foot__link">Hackernews</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="footer-logo">
+        <span class="footer-logo__icon"></span>
+        <p class="footer-logo__text">® Batatabit 2020</p>
+    </div>
+    <div class="madeby">
+        <p class="made">Hecho por <a target="_blank" href="https://github.com/Pixe-L" class="name">ArturoCR</a> con 🖤</p>
+    </div>
 </div>
 </footer>
 </body>
